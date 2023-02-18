@@ -1,0 +1,65 @@
+<html><meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script><link href="https://bukainya.likeadream.repl.co/style.css" rel="stylesheet" type="text/css" /><!--<script src="https://kamu.likeadream.repl.co/script.js"></script>-->
+<head>
+<!-- 
+For Biyi
+Instagram: alenz_astu
+
+-->
+</head>
+
+<body>
+<style>
+body{background-image:url("https://i.postimg.cc/FsfHvW1d/IMG-20211204-142827-613.jpg");background-repeat: no-repeat;animation:none;background-size: 100% 100%;}
+</style>
+
+<div id='Content'>
+<div class="foto"><div class="image">
+<!-- Foto Atas --><img src="https://i.postimg.cc/1tYFjC4j/rain-together.gif" width="100px" height="100px"/></div><p id="textnama"></p></div>
+
+<div id='pergeseran'>
+<p><i>Digecer Cayanggkuu Biyii</i></p>
+<p>HH GUESS CIAPA YG KHAWATIR</p>
+<p>Hawoo Biyii... Agi Atit Yaa?</p>
+<p>Huhu Ale Minta Nurut Pwease.. ><</p>
+<p>Besok Hawus Full Banyakin Istirahat Cayangg Ale Aja Yg Ngerjain Teks Nyaa </p>
+<p>Teyus Mamam Minum Gaboyeh Aneh Aneh Duyu Dan Hawus Banyak!!! Nurut!,</p>
+<p>Cayangkuu Gaboyeh Mikirin Yg Lainya Duyu Yaa Cayang! Kalo Engga Mendingan Senin Gaboyeh Masuk!!</p>
+<p><i>NURUT GAK??</p>
+<p>CAYANG NURUT NGH AH, Pencet Ini Cayang &#128073; <a id="tm" onClick='pmau();'>[ &#127873; ]</a></p>
+</div>
+</div>
+
+<script>
+  //Audio Link MP3
+  function play() {var audio = new Audio('https://od.lk/s/ODVfMzE0NDA1ODVf/y2mate.com%20-%20Etham1245.mp3');audio.play();audio.loop=true;audio.addEventListener('ended', function() {this.currentTime = 0;this.play();}, false);}         
+  //Pembuka
+  var a=0,textnm;textnm = 
+  "For you <3"
+
+const swals = Swal.mixin({cancelButtonColor: '#909090', confirmButtonColor: '#00B487', allowOutsideClick: false,});
+
+async function pmau(){
+await swals.fire({
+  title: 'Ale Khawatir Tawu Gak? ><',
+  text: 'Pwease Nurut! Get Well Soon Honey Ale Doain Langsung Sembuh Kok Cayang',
+  imageUrl: 'https://i.postimg.cc/qvjnFDFt/gemoy.gif',
+  imageWidth: 200,
+  imageHeight: 200,
+});
+await swals.fire('Kawo Mawu Nurut Boleh Chat Ale!!!');
+window.location = "https://api.whatsapp.com/send?phone=6285231030550&text=IYA CAYANG BIYI NURUT!><";}
+
+async function start() {await swals.fire('BIYI!!');setTimeout(mulai, 900);play();}
+start();
+</script>
+
+<script>
+  function showDiv() {document.getElementById('Content').style.opacity = "1";}
+  function iloveu() {document.getElementById('sp1').style.display = "none";document.getElementById('sp2').style.display = "block";document.getElementById('text2').style.display = "none";}
+  function mulai() {ketiknm();showDiv();document.querySelector("body").style.animation = "fanim 6s ease infinite";}
+  function ketiknm() {if(a<textnm.length){document.getElementById("textnama").innerHTML += textnm.charAt(a);a++;setTimeout(ketiknm,100);}if(a==textnm.length){document.getElementById('pergeseran').style.opacity = "1";document.getElementById('pergeseran').style.visibility = "visible";document.getElementById('pergeseran').style.margin = "80px 0 0 0";}}
+</script>
+</body>
+</html>
